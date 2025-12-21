@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 // 最小化测试合约：仅测试 fund() 函数的核心记录逻辑
 contract FundMe_CoreTest {
@@ -24,4 +24,5 @@ contract FundMe_CoreTest {
     function getFunderCount() public view returns (uint256) {
         return funders.length;
     }
+
 }
