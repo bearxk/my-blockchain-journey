@@ -1,0 +1,31 @@
+现在是2025年12月21日的早上8：04 
+看着B站”Chainlink预言机“UP主发布的Web3教程视频慢慢学习
+今日
+掌握了一些Solidity的一些基础
+Remix，Solidity的一些使方法
+Solidity的基础数据类型
+bool
+int
+uint
+Bytes
+bytes32
+string
+Solidity中的函数，在合约中实现任何逻辑都借由Solidity函数帮我们去实现。
+入参，返回值，以及可见度标识符:
+	public（全开放）
+	private（仅本合约）
+	internal（本合约 + 子合约）
+	external（仅外部）
+	view参数 纯读取参数
+	pure参数 纯运算参数
+EVM底层数据存储：
+    1.storage  永久性存储 声明变量时默认为storage
+    2.memory   暂时性存储，运行时可以对数据状态修改
+    3.calldata 暂时性存储，运行时不可以对数据状态修改
+Solidity基础数据结构：结构体，数组，映射
+	struct: 结构体  一个结构体可以有多个属性，每个属性都可以是不同的数据结构，或者基础数据类型
+	array: 数组  适用于存储相同数据类型的变量
+	mapping: 映射     适用于存储键值
+最后是工厂模式
+	需要创建大量同类型合约时，可以使用工厂合约，对他们进行统一的创建、存储、管理
+	（批量创建相同类型的合约，统一管理）
